@@ -1,0 +1,209 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: W BinB_W, BinB_W, LIC=NQQ63-ANXAX-9SYYS-LL4ZR-0QQ6S-RC0YF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.14.0.0
+Toolchain Path:  D:\Software\ProfessionalSoftware\Keil_5\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      UL2CM3.DLL V1.155.0.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+F:\资源整合\MyResources\ProjectData\CorporateProject\QuarkBrother\发动机自稳控制项目\控制代码\generator_control_panel V1.0\generator_control_panel V1.0.uvprojx
+Project File Date:  04/26/2017
+
+<h2>Output:</h2>
+Build target 'generator_control_panel V1.0'
+compiling main.c...
+compiling time.c...
+compiling device_led.c...
+Devices\device_led.c(36): error:  #254: type name is not allowed
+      for(u8 i=0; i<4; i++)
+Devices\device_led.c(36): error:  #65: expected a ";"
+      for(u8 i=0; i<4; i++)
+Devices\device_led.c(36): error:  #20: identifier "i" is undefined
+      for(u8 i=0; i<4; i++)
+Devices\device_led.c(51): error:  #20: identifier "GPIO_LED" is undefined
+                  LED1_ON;
+Devices\device_led.c(51): error:  #20: identifier "Pin_LED1" is undefined
+                  LED1_ON;
+Devices\device_led.c(54): error:  #20: identifier "Pin_LED2" is undefined
+                  LED2_ON;
+Devices\device_led.c(57): error:  #20: identifier "LED3_ON" is undefined
+                  LED3_ON;
+Devices\device_led.c(60): error:  #20: identifier "LED4_ON" is undefined
+                  LED4_ON;
+Devices\device_led.c(71): error:  #20: identifier "GPIO_LED" is undefined
+                  LED1_OFF;
+Devices\device_led.c(71): error:  #20: identifier "Pin_LED1" is undefined
+                  LED1_OFF;
+Devices\device_led.c(74): error:  #20: identifier "Pin_LED2" is undefined
+                  LED2_OFF;
+Devices\device_led.c(77): error:  #20: identifier "LED3_OFF" is undefined
+                  LED3_OFF;
+Devices\device_led.c(80): error:  #20: identifier "LED4_OFF" is undefined
+                  LED4_OFF;
+Devices\device_led.c: 0 warnings, 13 errors
+compiling device_pwm_out.c...
+Devices\device_pwm_out.c(36): warning:  #223-D: function "RCC_AHB1PeriphClockCmd" declared implicitly
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA|RCC_AHB1Periph_GPIOC|RCC_AHB1Periph_GPIOE, ENABLE);
+Devices\device_pwm_out.c(36): error:  #20: identifier "RCC_AHB1Periph_GPIOA" is undefined
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA|RCC_AHB1Periph_GPIOC|RCC_AHB1Periph_GPIOE, ENABLE);
+Devices\device_pwm_out.c(36): error:  #20: identifier "RCC_AHB1Periph_GPIOC" is undefined
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA|RCC_AHB1Periph_GPIOC|RCC_AHB1Periph_GPIOE, ENABLE);
+Devices\device_pwm_out.c(36): error:  #20: identifier "RCC_AHB1Periph_GPIOE" is undefined
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA|RCC_AHB1Periph_GPIOC|RCC_AHB1Periph_GPIOE, ENABLE);
+Devices\device_pwm_out.c(41): error:  #20: identifier "GPIO_Mode_AF" is undefined
+      GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+Devices\device_pwm_out.c(42): error:  #20: identifier "GPIO_Speed_100MHz" is undefined
+      GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
+Devices\device_pwm_out.c(43): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_pwm_out.c(43): error:  #20: identifier "GPIO_OType_PP" is undefined
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_pwm_out.c(44): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;
+Devices\device_pwm_out.c(44): error:  #20: identifier "GPIO_PuPd_UP" is undefined
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;
+Devices\device_pwm_out.c(47): warning:  #223-D: function "GPIO_PinAFConfig" declared implicitly
+      GPIO_PinAFConfig(GPIOA, GPIO_PinSource2, GPIO_AF_TIM5);
+Devices\device_pwm_out.c(47): error:  #20: identifier "GPIO_AF_TIM5" is undefined
+      GPIO_PinAFConfig(GPIOA, GPIO_PinSource2, GPIO_AF_TIM5);
+Devices\device_pwm_out.c(81): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_pwm_out.c(82): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;
+Devices\device_pwm_out.c(85): error:  #20: identifier "GPIO_AF_TIM1" is undefined
+      GPIO_PinAFConfig(GPIOE, GPIO_PinSource9, GPIO_AF_TIM1);
+Devices\device_pwm_out.c(132): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_pwm_out.c(133): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;
+Devices\device_pwm_out.c(136): error:  #20: identifier "GPIO_AF_TIM8" is undefined
+      GPIO_PinAFConfig(GPIOC, GPIO_PinSource8, GPIO_AF_TIM8);
+Devices\device_pwm_out.c: 2 warnings, 16 errors
+compiling device_usart.c...
+Devices\device_usart.c(22): warning:  #223-D: function "RCC_AHB1PeriphClockCmd" declared implicitly
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA,ENABLE);
+Devices\device_usart.c(22): error:  #20: identifier "RCC_AHB1Periph_GPIOA" is undefined
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA,ENABLE);
+Devices\device_usart.c(23): warning:  #223-D: function "GPIO_PinAFConfig" declared implicitly
+      GPIO_PinAFConfig(GPIOA, GPIO_PinSource9, GPIO_AF_USART1);
+Devices\device_usart.c(23): error:  #20: identifier "GPIO_AF_USART1" is undefined
+      GPIO_PinAFConfig(GPIOA, GPIO_PinSource9, GPIO_AF_USART1);
+Devices\device_usart.c(27): error:  #268: declaration may not appear after executable statement in block
+      GPIO_InitTypeDef GPIO_InitStructure;
+Devices\device_usart.c(29): error:  #20: identifier "GPIO_Mode_AF" is undefined
+      GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+Devices\device_usart.c(31): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_usart.c(31): error:  #20: identifier "GPIO_OType_PP" is undefined
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_usart.c(32): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;
+Devices\device_usart.c(32): error:  #20: identifier "GPIO_PuPd_UP" is undefined
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;
+Devices\device_usart.c(35): error:  #268: declaration may not appear after executable statement in block
+      USART_InitTypeDef USART_InitStructure;
+Devices\device_usart.c(44): error:  #268: declaration may not appear after executable statement in block
+      USART_ClockInitTypeDef USART_ClockInitStruct;
+Devices\device_usart.c(51): error:  #268: declaration may not appear after executable statement in block
+      NVIC_InitTypeDef NVIC_InitStructure;
+Devices\device_usart.c(76): warning:  #223-D: function "RCC_AHB1PeriphClockCmd" declared implicitly
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD,ENABLE);
+Devices\device_usart.c(76): error:  #20: identifier "RCC_AHB1Periph_GPIOD" is undefined
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD,ENABLE);
+Devices\device_usart.c(77): warning:  #223-D: function "GPIO_PinAFConfig" declared implicitly
+      GPIO_PinAFConfig(GPIOD, GPIO_PinSource5, GPIO_AF_USART2);
+Devices\device_usart.c(77): error:  #20: identifier "GPIO_AF_USART2" is undefined
+      GPIO_PinAFConfig(GPIOD, GPIO_PinSource5, GPIO_AF_USART2);
+Devices\device_usart.c(81): error:  #268: declaration may not appear after executable statement in block
+      GPIO_InitTypeDef GPIO_InitStructure;
+Devices\device_usart.c(83): error:  #20: identifier "GPIO_Mode_AF" is undefined
+      GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+Devices\device_usart.c(85): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_usart.c(85): error:  #20: identifier "GPIO_OType_PP" is undefined
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_usart.c(86): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;
+Devices\device_usart.c(86): error:  #20: identifier "GPIO_PuPd_UP" is undefined
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP ;
+Devices\device_usart.c(89): error:  #268: declaration may not appear after executable statement in block
+      USART_InitTypeDef USART_InitStructure;
+Devices\device_usart.c(98): error:  #268: declaration may not appear after executable statement in block
+      USART_ClockInitTypeDef USART_ClockInitStruct;
+Devices\device_usart.c(105): error:  #268: declaration may not appear after executable statement in block
+      NVIC_InitTypeDef NVIC_InitStructure;
+Devices\device_usart.c(130): warning:  #223-D: function "RCC_AHB1PeriphClockCmd" declared implicitly
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB,ENABLE);
+Devices\device_usart.c(130): error:  #20: identifier "RCC_AHB1Periph_GPIOB" is undefined
+      RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB,ENABLE);
+Devices\device_usart.c(131): warning:  #223-D: function "GPIO_PinAFConfig" declared implicitly
+      GPIO_PinAFConfig(GPIOB, GPIO_PinSource10, GPIO_AF_USART3);
+Devices\device_usart.c(131): error:  #20: identifier "GPIO_AF_USART3" is undefined
+      GPIO_PinAFConfig(GPIOB, GPIO_PinSource10, GPIO_AF_USART3);
+Devices\device_usart.c(135): error:  #268: declaration may not appear after executable statement in block
+      GPIO_InitTypeDef GPIO_InitStructure;
+Devices\device_usart.c(137): error:  #20: identifier "GPIO_Mode_AF" is undefined
+      GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF;
+Devices\device_usart.c(139): error:  #136: struct "<unnamed>" has no field "GPIO_OType"
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_usart.c(139): error:  #20: identifier "GPIO_OType_PP" is undefined
+      GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
+Devices\device_usart.c(140): error:  #136: struct "<unnamed>" has no field "GPIO_PuPd"
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL ;
+Devices\device_usart.c(140): error:  #20: identifier "GPIO_PuPd_NOPULL" is undefined
+      GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_NOPULL ;
+Devices\device_usart.c: 6 warnings, 30 errors
+compiling driver_pwm_out.c...
+.\Applications\mymath.h(8): error:  #5: cannot open source input file "stm32f4xx.h": No such file or directory
+  #include "stm32f4xx.h"
+Drivers\driver_pwm_out.c: 0 warnings, 1 error
+compiling driver_usart.c...
+Drivers\driver_usart.c(91): warning:  #223-D: function "GPS_Get" declared implicitly
+          GPS_Get(com_data);
+Drivers\driver_usart.c(129): warning:  #223-D: function "Ultra_Get" declared implicitly
+          Ultra_Get(com_data);
+Drivers\driver_usart.c(151): error:  #254: type name is not allowed
+      for(u8 i=0; i<data_num; i++)
+Drivers\driver_usart.c(151): error:  #65: expected a ";"
+      for(u8 i=0; i<data_num; i++)
+Drivers\driver_usart.c(151): error:  #20: identifier "i" is undefined
+      for(u8 i=0; i<data_num; i++)
+Drivers\driver_usart.c(166): error:  #254: type name is not allowed
+      for(u8 i=0; i<data_num; i++)
+Drivers\driver_usart.c(166): error:  #65: expected a ";"
+      for(u8 i=0; i<data_num; i++)
+Drivers\driver_usart.c(166): error:  #20: identifier "i" is undefined
+      for(u8 i=0; i<data_num; i++)
+Drivers\driver_usart.c(181): error:  #254: type name is not allowed
+      for(u8 i=0; i<data_num; i++)
+Drivers\driver_usart.c(181): error:  #65: expected a ";"
+      for(u8 i=0; i<data_num; i++)
+Drivers\driver_usart.c(181): error:  #20: identifier "i" is undefined
+      for(u8 i=0; i<data_num; i++)
+Drivers\driver_usart.c: 2 warnings, 9 errors
+".\Objects\generator_control_panel V1.0" - 69 Error(s), 10 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  F:\资源整合\MyResources\ProjectData\CorporateProject\QuarkBrother\发动机自稳控制项目\控制代码\generator_control_panel V1.0\RTE
+  D:\Software\ProfessionalSoftware\Keil_5\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+</pre>
+</body>
+</html>

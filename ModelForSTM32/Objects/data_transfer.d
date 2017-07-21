@@ -1,0 +1,10 @@
+.\objects\data_transfer.o: Applications\data_transfer.c
+.\objects\data_transfer.o: D:\Software\ProfessionalSoftware\Keil_5\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\stm32f10x.h
+.\objects\data_transfer.o: .\Core\core_cm3.h
+.\objects\data_transfer.o: D:\Software\ProfessionalSoftware\Keil_5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\data_transfer.o: D:\Software\ProfessionalSoftware\Keil_5\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include\system_stm32f10x.h
+.\objects\data_transfer.o: Applications\data_transfer.h
+.\objects\data_transfer.o: .\Drivers\driver_usart.h
+.\objects\data_transfer.o: .\Devices\device_usart.h
+.\objects\data_transfer.o: Applications\time.h
+.\objects\data_transfer.o: .\Devices\device_timer.h
