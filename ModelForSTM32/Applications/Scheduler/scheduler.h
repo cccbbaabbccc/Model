@@ -1,11 +1,9 @@
-/* ©2015-2016 Beijing Bechade Opto-Electronic, Co.,Ltd. All rights reserved.
- + 文件名  ：scheduler.h
+/* 
+ + 文件名  ：Scheduler.h
  + 描述    ：任务调度头文件
-代码尽量做到逐行注释 代码有问题，及时加群交流 作者有偿支持对开源代码的完善 */
+*/
 #ifndef _SCHEDULER_H_
 #define _SCHEDULER_H_
-
-#include "stm32f10x.h"
 
 /* 循环计数结构体 */
 typedef struct
@@ -34,4 +32,4 @@ extern void Main_Loop(void);
 extern void Call_Loop_timer(void);
 
 #endif
-/* ©2015-2016 Beijing Bechade Opto-Electronic, Co.,Ltd. All rights reserved. */
+

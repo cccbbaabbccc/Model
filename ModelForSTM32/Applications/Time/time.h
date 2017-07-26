@@ -1,12 +1,9 @@
-/* ©2015-2016 Beijing Bechade Opto-Electronic, Co.,Ltd. All rights reserved.
- + 文件名  time.h
+/* 
+ + 文件名  ：time.h
  + 描述    ：系统时间统计头文件
-代码尽量做到逐行注释 代码有问题，及时加群交流 作者有偿支持对开源代码的完善 */
+*/
 #ifndef _TIME_H_
 #define _TIME_H_
-
-#include "stm32f10x.h"
-#include "device_timer.h"
 
 /*----------------------------------------------------------
  + 实现功能：延时

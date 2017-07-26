@@ -1,7 +1,7 @@
-/* ©2015-2016 Beijing Bechade Opto-Electronic, Co.,Ltd. All rights reserved.
+/* 
  + 文件名  ：device_timer.c
  + 描述    ：定时器设备
-代码尽量做到逐行注释 代码有问题，及时加群交流 作者有偿支持对开源代码的完善 */
+*/
 #include "stm32f10x.h"
 #include "device_timer.h"
 
@@ -25,4 +25,3 @@ void SysTick_Configuration(void)
     SysTick_CLKSourceConfig(SysTick_CLKSource_HCLK_Div8);
 }
 
-/* ©2015-2016 Beijing Bechade Opto-Electronic, Co.,Ltd. All rights reserved. */

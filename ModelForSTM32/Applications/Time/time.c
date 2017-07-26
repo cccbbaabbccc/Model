@@ -1,11 +1,8 @@
-/* ©2015-2016 Beijing Bechade Opto-Electronic, Co.,Ltd. All rights reserved.
- + 文件名  time.c
+/* 
+ + 文件名  ：time.c
  + 描述    ：系统时间统计
-代码尽量做到逐行注释 代码有问题，及时加群交流 作者有偿支持对开源代码的完善 */
-#include "stm32f10x.h"
-#include "time.h"
-#include "init.h"
-#include "scheduler.h"
+*/
+#include "includes.h"
 
 /* 设置获取时间的数组数量 */
 #define GET_TIME_NUM 	    (3)
@@ -108,4 +105,3 @@ void SysTick_Handler(void)
     Call_Loop_timer();
 }
 
-/* ©2015-2016 Beijing Bechade Opto-Electronic, Co.,Ltd. All rights reserved. */

@@ -1,7 +1,10 @@
-.\objects\scheduler.o: Applications\scheduler.c
+.\objects\scheduler.o: Applications\Scheduler\scheduler.c
+.\objects\scheduler.o: .\Applications\Main&Define\includes.h
+.\objects\scheduler.o: D:\Software\ProfessionalSoftware\Keil_5\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\scheduler.o: D:\Software\ProfessionalSoftware\Keil_5\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\scheduler.o: D:\Software\ProfessionalSoftware\Keil_5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\scheduler.o: .\User\stm32f10x.h
 .\objects\scheduler.o: .\Core\core_cm3.h
-.\objects\scheduler.o: D:\Software\ProfessionalSoftware\Keil_5\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\scheduler.o: .\User\system_stm32f10x.h
 .\objects\scheduler.o: .\User\stm32f10x_conf.h
 .\objects\scheduler.o: .\Libraries\STM32F10x_FWLib\inc\stm32f10x_adc.h
@@ -28,6 +31,6 @@
 .\objects\scheduler.o: .\Libraries\STM32F10x_FWLib\inc\stm32f10x_usart.h
 .\objects\scheduler.o: .\Libraries\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 .\objects\scheduler.o: .\Libraries\STM32F10x_FWLib\inc\misc.h
-.\objects\scheduler.o: Applications\scheduler.h
-.\objects\scheduler.o: Applications\time.h
+.\objects\scheduler.o: .\Applications\Scheduler\scheduler.h
+.\objects\scheduler.o: .\Applications\Time\time.h
 .\objects\scheduler.o: .\Devices\device_timer.h

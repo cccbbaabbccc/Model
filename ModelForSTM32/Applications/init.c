@@ -28,7 +28,7 @@ void Light_Init()
     NVIC_PriorityGroupConfig(NVIC_PriorityGroup_3);
     /* 开启定时器 */
     SysTick_Configuration();
-
+	
     /* LED功能初始化 */
 //    LED_Init();
 //    /* 接收机信号采集初始化 */

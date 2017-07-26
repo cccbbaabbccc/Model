@@ -31,4 +31,4 @@
 .\objects\driver_time.o: Drivers\driver_time.h
 .\objects\driver_time.o: .\Devices\device_timer.h
 .\objects\driver_time.o: .\Applications\init.h
-.\objects\driver_time.o: .\Applications\scheduler.h
+.\objects\driver_time.o: .\Applications\Scheduler\scheduler.h

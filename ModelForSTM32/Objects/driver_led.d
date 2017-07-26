@@ -29,5 +29,5 @@
 .\objects\driver_led.o: .\Libraries\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 .\objects\driver_led.o: .\Libraries\STM32F10x_FWLib\inc\misc.h
 .\objects\driver_led.o: Drivers\driver_led.h
-.\objects\driver_led.o: .\Applications\time.h
+.\objects\driver_led.o: .\Applications\Time\time.h
 .\objects\driver_led.o: .\Devices\device_timer.h
